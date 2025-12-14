@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endri - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Endri Puta Bintang</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="fotodiri.jpeg" alt="Endri Puta Bintang">
+                </div>
+                <div class="hero-text">
+                    <h1>Endri Puta Bintang</h1>
+                    <p>IT Support Technician At Burger Bangor | Undergraduated Student At Pamulang University</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About</h2>
+            <p>Saya adalah seorang mahasiswa kelas malam yang sekaligus pegawai swasta. Saya bekerja dibidang IT sebagai IT Support di Burger Bangor dan merupakan seorang mahasiswa teknik informatika semester 5 di Universitas Pamulang</p>
+            <div class="skills">
+                <span>JavaScript</span>
+                <span>React JS</span>
+                <span>GO</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Critical Thinking</span>
+                <span>Problem Solving</span>
+                <span>Software</span>
+                <span>Hardware</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Reservation Web APP</h3>
+                    <p>Merancang dan membangun sebuah UI/UX untuk website sistem reservasi makanan berbasis QR untuk menuntaskan tugas digital enterpreneurship.</p>
+                    <div class="project-links">
+                        <a href="#">Demo</a>
+                        <a href="#">Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Inventory Management Web APP</h3>
+                    <p>Merancang dan membangun sebuah website untuk memanajemen asset perusahaan membangun frontend dan backend secara bersamaan</p>
+                    <div class="project-links">
+                        <a href="#">Demo</a>
+                        <a href="#">Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Portofolio Web</h3>
+                    <p>Web untuk menampilkan profil saya sebagai seorang mahasiswa sekaligus karyawan.</p>
+                    <div class="project-links">
+                        <a href="#">Demo</a>
+                        <a href="#">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Interested to work together? Let's talk.</p>
+            <div class="contact-links">
+                <a href="mailto:putabintang8@gmail.com">Email</a>
+                <a href="https://github.com/putabintang8-coder" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/endri-puta-bintang13" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Endri Puta Bintang</p>
+        </div>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.3)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
